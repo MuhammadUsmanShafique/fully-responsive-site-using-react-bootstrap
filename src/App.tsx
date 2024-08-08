@@ -1,14 +1,23 @@
 import "./App.css";
-import NavBar from "./components/Navbar";
+import CardsCollection from "./components/CardsCollection";
+import image1 from "./assets/1.jpeg";
+
+const cardsData = [
+  { image: image1, text: "Card 1" },
+  { image: image1, text: "Card 2" },
+  { image: image1, text: "Card 3" },
+  { image: image1, text: "Card 4" },
+  { image: image1, text: "Card 5" },
+  { image: image1, text: "Card 6" },
+];
 
 function App() {
   return (
     <>
-      <NavBar />
-      <div className="container py-4 px-3 mx-auto">
-        <h1>Hello, Bootstrap and Vite!</h1>
-        <button className="btn btn-warning">Primary button</button>
-      </div>
+      <CardsCollection
+        cards={cardsData}
+        columns={{ xs: 12, sm: 6, md: 4, lg: 4, xl: 2 }}
+      />
     </>
   );
 }
