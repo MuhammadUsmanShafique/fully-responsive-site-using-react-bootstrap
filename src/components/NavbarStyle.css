@@ -1,0 +1,10 @@
+.pur_but {
+  position: relative;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.pur_but:hover .dot {
+  transform: translateY(-10px); /* Move dot up on hover */
+}
