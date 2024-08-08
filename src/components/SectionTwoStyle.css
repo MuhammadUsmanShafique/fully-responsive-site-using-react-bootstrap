@@ -1,0 +1,24 @@
+@media (min-width: 992px) {
+  .img2-pos {
+    position: relative;
+    top: -100px;
+    left: 200px;
+    width: 80% !important;
+  }
+}
+.VP_but {
+  position: relative;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.VP_but:hover .dot {
+  transform: translateY(-10px); /* Move dot up on hover */
+}
+.w-lg-15 {
+  width: 15%;
+}
+.h-250px {
+  height: 250px !important;
+}
