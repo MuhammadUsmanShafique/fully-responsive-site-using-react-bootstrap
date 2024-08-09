@@ -14,7 +14,8 @@ export default function Navbar() {
             Themebau
           </a>
           <button
-            className="navbar-toggler text-white bg-danger-subtle"
+            className="navbar-toggler bg-white"
+            style={{ zIndex: "5" }}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -36,10 +37,27 @@ export default function Navbar() {
                   Home
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item projects">
                 <a className="nav-link text-white" href="#">
                   Projects
                 </a>
+                <ul className="d-none">
+                  <li>
+                    <a href="#">Project 1</a>
+                  </li>
+                  <li>
+                    <a href="#">Project 2</a>
+                  </li>
+                  <li>
+                    <a href="#">Project 3</a>
+                  </li>
+                  <li>
+                    <a href="#">Project 4</a>
+                  </li>
+                  <li>
+                    <a href="#">Project 5</a>
+                  </li>
+                </ul>
               </li>
               <li className="nav-item">
                 <a className="nav-link text-white" href="#">

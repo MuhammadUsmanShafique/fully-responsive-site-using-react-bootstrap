@@ -8,3 +8,11 @@
 .pur_but:hover .dot {
   transform: translateY(-10px); /* Move dot up on hover */
 }
+.projects ul li {
+  list-style: none;
+  color: aqua;
+  font-weight: bold;
+}
+.projects:hover ul {
+  display: block !important;
+}
