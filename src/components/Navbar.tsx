@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-black">
       <div className="container">
-        <a className="navbar-brand text-white" href="#">
+        <a className="navbar-brand text-white" style={{ zIndex: "3" }} href="#">
           Themebau
         </a>
         <button
