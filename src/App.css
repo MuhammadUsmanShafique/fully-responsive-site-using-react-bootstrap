@@ -1,0 +1,18 @@
+.font80px {
+  font-size: 80px;
+}
+.h-300px {
+  height: 400px;
+  width: 400px;
+}
+.circle {
+  border-radius: 50%;
+  position: absolute;
+  top: -180px;
+  opacity: 0.5;
+}
+a:hover {
+  color: blue !important;
+  font-weight: bolder !important;
+  background-color: rgb(188, 179, 179);
+}
