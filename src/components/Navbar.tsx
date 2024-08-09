@@ -1,10 +1,11 @@
 import "./NavbarStyle.css";
 import "../App.css";
-export default function Navabar() {
+
+export default function Navbar() {
   return (
-    <div className="conatiner  ">
-      <nav className="navbar navbar-expand-lg ">
-        <div className="container ">
+    <div className="container">
+      <nav className="navbar navbar-expand-lg">
+        <div className="container">
           <a
             className="navbar-brand text-white"
             style={{ zIndex: "3" }}
@@ -13,7 +14,7 @@ export default function Navabar() {
             Themebau
           </a>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler text-white bg-danger-subtle"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -26,9 +27,9 @@ export default function Navabar() {
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="nav-item">
+              <li className="nav-item" style={{ zIndex: "4" }}>
                 <a
-                  className="HOME nav-link active text-white "
+                  className="HOME nav-link active text-white"
                   aria-current="page"
                   href="#"
                 >
