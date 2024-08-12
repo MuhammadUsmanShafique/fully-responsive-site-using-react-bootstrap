@@ -12,7 +12,7 @@
   opacity: 0.5;
 }
 a:hover {
-  color: blue !important;
-  font-weight: bolder !important;
+  color: blue;
+  font-weight: bolder;
   background-color: rgb(188, 179, 179);
 }
