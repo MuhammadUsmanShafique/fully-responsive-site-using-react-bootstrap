@@ -1,7 +1,9 @@
 import img1 from "../assets/Sec2Image1.jpg";
 import img2 from "../assets/Sec2Image2.jpg";
 import "./SectionTwoStyle.css"; // Import your custom CSS
-
+import image1 from "../assets/image1.jpg";
+import image2 from "../assets/image2.jpg";
+import image3 from "../assets/image3.jpg";
 export default function SectionTwo() {
   return (
     <>
@@ -38,21 +40,81 @@ export default function SectionTwo() {
           </div>
         </div>
       </div>
-
       <br />
-      <br />
-
       <div className="container-fluid ">
-        <div className="d-flex justify-content-around ">
-          <div className="w-lg-15 w-md-100 w-sm-100 row h-250px gy-3 border border-4  ">
-            <div className="col-12 h-auto border border-3 border-danger-subtle bg-secondary-subtle"></div>
-            <div className="col-12 h-auto border border-3 border-dark-subtle bg-secondary-subtle"></div>
+        <div className="d-flex justify-content-around flex-column flex-lg-row gap-5 gap-lg-2 ">
+          <div className="border border-5 border-danger-subtle p-1">
+            <img
+              src={image3}
+              className="img-fluid img1-pos mb-2"
+              alt="Description 1"
+            />
+            <img
+              src={image2}
+              className="img-fluid img1-pos"
+              alt="Description 1"
+            />
           </div>
-          <div className="bg-body w-lg-15 w-md-100 w-sm-100">2</div>
-          <div className=" bg-info w-lg-15 w-md-100 w-sm-100">3</div>
-          <div className=" bg-black w-lg-15 w-md-100 w-sm-100">4</div>
-          <div className="bg-dark-subtle w-lg-15 w-md-100 ">5</div>
-          <div className="bg-danger w-lg-15 w-md-100 ">6</div>
+          <div className="border border-5 border-dark p-1  ">
+            <img
+              src={image2}
+              className="img-fluid img1-pos mb-2"
+              alt="Description 1"
+            />
+            <img
+              src={image3}
+              className="img-fluid img1-pos"
+              alt="Description 1"
+            />
+          </div>
+          <div className="border border-5 border-info p-1 ">
+            <img
+              src={image3}
+              className="img-fluid img1-pos mb-2"
+              alt="Description 1"
+            />
+            <img
+              src={image1}
+              className="img-fluid img1-pos"
+              alt="Description 1"
+            />
+          </div>
+          <div className="border border-5 border-danger-subtle p-1">
+            <img
+              src={image3}
+              className="img-fluid img1-pos mb-2"
+              alt="Description 1"
+            />
+            <img
+              src={image2}
+              className="img-fluid img1-pos"
+              alt="Description 1"
+            />
+          </div>
+          <div className="border border-5 border-dark p-1  ">
+            <img
+              src={image2}
+              className="img-fluid img1-pos mb-2"
+              alt="Description 1"
+            />
+            <img
+              src={image3}
+              className="img-fluid img1-pos"
+              alt="Description 1"
+            />
+          </div>
+          <div className="border border-5 border-info p-1 ">
+            <img
+              src={image3}
+              className="img-fluid img1-pos mb-2"
+              alt="Description 1"
+            />
+            <img
+              src={image1}
+              className="img-fluid img1-pos"
+              alt="Description 1"
+            />
+          </div>
         </div>
       </div>
     </>
