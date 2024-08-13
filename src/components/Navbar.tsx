@@ -1,5 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min"; // Ensure this import is correct
 import "./NavbarStyle.css";
 export default function Navbar() {
   return (

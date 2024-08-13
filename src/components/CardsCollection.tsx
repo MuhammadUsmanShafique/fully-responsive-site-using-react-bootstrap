@@ -1,22 +1,5 @@
 import Card from "./Card";
-
-type CardProps = {
-  image: string;
-  text: string;
-};
-
-type ColumnsConfig = {
-  xs: number;
-  sm: number;
-  md: number;
-  lg: number;
-  xl: number;
-};
-
-type CardsCollectionProps = {
-  cards: CardProps[];
-  columns: ColumnsConfig;
-};
+import { CardsCollectionProps } from "../types";
 
 export default function CardsCollection({
   cards,

@@ -1,9 +1,5 @@
 import "./Cardstyle.css";
-type CardProps = {
-  image: string;
-  text: string;
-};
-
+import { CardProps } from "../types";
 export default function Card({ image, text }: CardProps) {
   return (
     <div className="card border-0 transform transition-hover">
