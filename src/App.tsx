@@ -1,14 +1,10 @@
 import "./App.css";
-import NavBar from "./components/Navbar";
+import SectionTwo from "./components/SectionTwo";
 
 function App() {
   return (
     <>
-      <NavBar />
-      <div className="container py-4 px-3 mx-auto">
-        <h1>Hello, Bootstrap and Vite!</h1>
-        <button className="btn btn-warning">Primary button</button>
-      </div>
+      <SectionTwo />
     </>
   );
 }
