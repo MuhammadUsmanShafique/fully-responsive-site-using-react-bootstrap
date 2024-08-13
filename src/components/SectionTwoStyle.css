@@ -2,8 +2,8 @@
   .img2-pos {
     position: relative;
     top: -100px;
-    left: 200px;
-    width: 80% !important;
+    left: 150px;
+    width: 80%;
   }
 }
 .VP_but {
@@ -15,10 +15,4 @@
 
 .VP_but:hover .dot {
   transform: translateY(-10px); /* Move dot up on hover */
-}
-.w-lg-15 {
-  width: 15%;
-}
-.h-250px {
-  height: 250px !important;
 }
