@@ -1,0 +1,10 @@
+.circle {
+  border-radius: 50%;
+  position: absolute;
+  top: -180px;
+  opacity: 0.5;
+}
+a:hover {
+  font-weight: bolder;
+  background-color: rgb(188, 179, 179);
+}
